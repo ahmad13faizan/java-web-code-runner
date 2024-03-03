@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Terminal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        #commandForm {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #commandInput {
+            width: 100%;
+            height: 700px;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            border: 5px solid #090808;
+            border-radius: 5px;
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+        #commandInput:focus {
+            border-color: #051406;
+        }
+        #submitBtn {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 20%;
+            padding: 10px;
+            background-color: #4d33a3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        #submitBtn:hover {
+            background-color: #0c0d1a;
+        }
+    </style>
+</head>
+<body>    
+    <h1>Java Terminal</h1>
+    <form id="commandForm" action="LoginServlet" method="post">
+        <textarea id="commandInput" name="command" placeholder="Enter Java code"></textarea>
+        <input type="submit" id="submitBtn" value="Send">
+    </form>
+</body>
+</html>
