@@ -1,6 +1,6 @@
 
 # Important note : Didnt implemented user input for e.g Scanner object  || Any contribution is highly appreciated  
-# Faizan Java Terminal
+# Java Web Code Runner
 
 This is a simple Java terminal emulator project built with Servlets. It allows users to interact with a Java program running on the server through a web browser.
 
@@ -16,14 +16,14 @@ This is a simple Java terminal emulator project built with Servlets. It allows u
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/ahmad13faizan/mrRobot.git
+    git clone https://github.com/ahmad13faizan/java-web-code-runner.git
     ```
 
 2. Open the project in your favorite IDE.
 
 3. Build and deploy the project on a servlet container such as Apache Tomcat.
 
-4. Access the terminal emulator by navigating to `http://localhost:8080/faizan-java-terminal` in your web browser.
+4. Access the terminal emulator by navigating to `http://localhost:8080/java-web-code-runner` in your web browser.
 
 ## Usage
 
