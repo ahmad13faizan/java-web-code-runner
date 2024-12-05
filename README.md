@@ -1,6 +1,6 @@
-
-# Important note : Didnt implemented user input for e.g Scanner object  || Any contribution is highly appreciated  
+  
 # Java Web Code Runner
+# Any contribution is highly appreciated
 
 This is a simple Java terminal emulator project built with Servlets. It allows users to interact with a Java program running on the server through a web browser.
 
